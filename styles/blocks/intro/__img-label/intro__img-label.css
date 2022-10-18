@@ -1,0 +1,8 @@
+.intro__img-label {
+    color: var(--main-text-color);
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
