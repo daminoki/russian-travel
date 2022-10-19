@@ -4,3 +4,22 @@
     align-items: flex-end;
     gap: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+    .cards-item__cover {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards-item__cover {
+        gap: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cards-item__cover {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

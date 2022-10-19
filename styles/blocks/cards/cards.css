@@ -5,3 +5,15 @@
 .cards :last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .cards {
+        padding-top: 88px;
+    }
+ }
+
+ @media screen and (max-width: 425px) {
+    .cards {
+        padding-top: 64px;
+    }
+ }
