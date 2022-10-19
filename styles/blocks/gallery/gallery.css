@@ -1,7 +1,18 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 16px;
-    margin-top: 92px;
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .gallery {
+        padding-top: 64px;
+    }
 }
