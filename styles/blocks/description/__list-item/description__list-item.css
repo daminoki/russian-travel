@@ -1,0 +1,6 @@
+.description__list-item {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--main-text-color);
+    font-weight: bold;
+}

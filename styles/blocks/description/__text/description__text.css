@@ -1,0 +1,8 @@
+.description__text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 26.08px;
+    max-width: 690px;
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
