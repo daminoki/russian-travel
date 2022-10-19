@@ -2,3 +2,15 @@
     max-width: 984px;
     margin-top: 92px;
 }
+
+@media screen and (max-width: 768px) {
+    .description__text-wrapper {
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .description__text-wrapper {
+        margin-top: 64px;
+    }
+}

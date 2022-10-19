@@ -21,3 +21,5 @@
 @import url(./blocks/description/__text-wrapper/description__text-wrapper.css);
 @import url(./blocks/description/__list/description__list.css);
 @import url(./blocks/description/__list-item/description__list-item.css);
+@import url(./blocks/gallery/gallery.css);
+@import url(./blocks/gallery/__item/gallery__item.css);
