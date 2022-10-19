@@ -1,23 +1,4 @@
-.cards-item__img {
-    max-width: 460px;
-    max-height: 460px;
-}
-
-@media screen and (max-width: 1024px) {
-    .cards-item__img {
-        max-width: 440px;
-        max-height: 440px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cards-item__img {
-        max-width: 340px;
-        max-height: 340px;
-    }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cards-item__img {
         left: 50%;
         margin-left: -50vw;

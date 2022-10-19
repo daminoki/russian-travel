@@ -2,4 +2,10 @@
     color: var(--main-text-color);
     font-size: 18px;
     line-height: 22px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.cards-item__link:hover {
+    opacity: 0.8;
 }

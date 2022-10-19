@@ -5,13 +5,17 @@
     margin-bottom: 80px;
 }
 
-@media screen and (max-width: 768px) {
+.cards-item:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
     .cards-item {
         margin-bottom: 73px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cards-item {
         margin-bottom: 50px;
         gap: 32px;

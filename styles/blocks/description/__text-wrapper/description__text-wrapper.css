@@ -3,13 +3,13 @@
     margin-top: 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .description__text-wrapper {
         margin-top: 88px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .description__text-wrapper {
         margin-top: 64px;
     }

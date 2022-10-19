@@ -5,13 +5,13 @@
     padding-top: 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .gallery {
         padding-top: 88px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .gallery {
         padding-top: 64px;
     }

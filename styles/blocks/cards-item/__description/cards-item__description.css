@@ -1,24 +1,23 @@
 .cards-item__description {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cards-item__description {
         gap: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cards-item__description {
         gap: 28px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cards-item__description {
-        flex-direction: column;
-        align-items: flex-start;
+        grid-template-columns: 1fr;
     }
 }
