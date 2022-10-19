@@ -1,0 +1,7 @@
+.cards-item__title {
+    max-width: 460px;
+    color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}

@@ -23,3 +23,15 @@
 @import url(./blocks/description/__list-item/description__list-item.css);
 @import url(./blocks/gallery/gallery.css);
 @import url(./blocks/gallery/__item/gallery__item.css);
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/cards-item/cards-item.css);
+@import url(./blocks/cards-item/__url/cards-item__url.css);
+@import url(./blocks/cards-item/__title/cards-item__title.css);
+@import url(./blocks/cards-item/__text/cards-item__text.css);
+@import url(./blocks/cards-item/__link/cards-item__link.css);
+@import url(./blocks/cards-item/__link-column/cards-item__link-column.css);
+@import url(./blocks/cards-item/__img/cards-item__img.css);
+@import url(./blocks/cards-item/__cover/cards-item__cover.css);
+@import url(./blocks/cards-item/__description/cards-item__description.css);
+@import url(./blocks/cards-item/__paragraphs/cards-item__paragraphs.css);
+@import url(./blocks/cards-item/__title/_one-word/cards-item__title_one-word.css);

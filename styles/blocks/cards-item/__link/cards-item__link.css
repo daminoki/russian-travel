@@ -1,0 +1,5 @@
+.cards-item__link {
+    color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 22px;
+}
