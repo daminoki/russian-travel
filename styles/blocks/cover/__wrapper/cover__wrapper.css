@@ -17,7 +17,6 @@
 
 .cover__wrapper:hover::before {
     opacity: 0.8;
-    border-radius: 5px;
 }
 
 @media screen and (max-width: 1279px) {
