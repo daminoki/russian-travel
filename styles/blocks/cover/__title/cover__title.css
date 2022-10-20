@@ -4,6 +4,7 @@
     font-size: 72px;
     line-height: 76px;
     position: absolute;
+    /* TODO refactor - use 50% and wrapper */
     bottom: 343px;
     left: 50%;
     transform: translate(-50%, -50%);
