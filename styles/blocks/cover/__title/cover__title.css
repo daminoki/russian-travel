@@ -1,0 +1,10 @@
+.cover__title {
+    color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    position: absolute;
+    bottom: 343px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,9 @@
+.cover__subtitle {
+    color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    left: 50%;
+    bottom: 245px;
+    transform: translate(-50%, -50%);
+}
