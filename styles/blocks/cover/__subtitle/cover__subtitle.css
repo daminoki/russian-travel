@@ -2,8 +2,11 @@
     color: var(--main-text-color);
     font-size: 18px;
     line-height: 22px;
-    position: absolute;
-    left: 50%;
-    bottom: 245px;
-    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
 }

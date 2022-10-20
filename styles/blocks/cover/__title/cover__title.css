@@ -3,9 +3,14 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    position: absolute;
-    /* TODO refactor - use 50% and wrapper\ */
-    bottom: 343px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 32px;
+    max-width: 560px;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
 }

@@ -1,0 +1,33 @@
+.cover__wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.cover__wrapper::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    content: "";
+    transition: opacity 0.3s ease-in-out;
+}
+
+.cover__wrapper:hover::before {
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__wrapper {
+        left: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        max-width: 100vw;
+        position: relative;
+        right: 50%;
+        width: 100vw;
+    }
+}

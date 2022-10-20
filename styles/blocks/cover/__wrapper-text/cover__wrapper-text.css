@@ -1,0 +1,19 @@
+.cover__wrapper-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__wrapper-text {
+        min-width: 560px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__wrapper-text {
+        min-width: 288px;
+    }
+}
+
